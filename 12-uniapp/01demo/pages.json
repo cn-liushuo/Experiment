@@ -1,0 +1,66 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/list/list",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/chat/chat",
+      "style": {
+        "navigationBarTitleText": "聊天室",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的",
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#F8F8F8",
+    // 开启下拉刷新
+    "enablePullDownRefresh": true
+  },
+  // 配置tabbar
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "red",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/category-sel.png",
+        "selectedIconPath": "static/category.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/category-sel.png",
+        "selectedIconPath": "static/category.png"
+      },
+      {
+        "text": "聊天",
+        "pagePath": "pages/chat/chat",
+        "iconPath": "static/category-sel.png",
+        "selectedIconPath": "static/category.png"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}

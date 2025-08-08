@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/01ArkTS/Page",
+    "pages/02router/First",
+    "pages/02router/two",
+    "pages/03dataType/dataType01",
+    "pages/04img/Img",
+    "pages/05poem/Poem",
+    "pages/05poem/Components"
+  ]
+}

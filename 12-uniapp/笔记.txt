@@ -1,0 +1,8 @@
+1.uniapp
+    uniapp是使用vue.js开发的前端应用框架，开发者写一套代码,可以发布到h5，Android, 各种小程序(微信小程序，抖音，百度，快手，钉钉)
+
+2. colorui的使用：
+    将colorui里的colorui文件夹全部复制到自己项目中
+    在项目中的app.vue文件 引入css
+    @import 'colorui/icon.css';
+	@import 'colorui/main.css';

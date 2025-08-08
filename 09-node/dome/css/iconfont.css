@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "iconfont"; /* Project id 4694891 */
+    src: url('iconfont.woff2?t=1729303522441') format('woff2'),
+    url('iconfont.woff?t=1729303522441') format('woff'),
+    url('iconfont.ttf?t=1729303522441') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-denglushimima:before {
+    content: "\e642";
+}
+
+.icon-dengluyonghuming:before {
+    content: "\e653";
+}
+
+.icon-santiaogang:before {
+    content: "\e602";
+}
+
+.icon-sousuo:before {
+    content: "\e632";
+}
+
+.icon-31shijian:before {
+    content: "\e600";
+}
+
+.icon-xiaoxi:before {
+    content: "\e61c";
+}
+
+.icon-weixin:before {
+    content: "\e870";
+}
+
+.icon-camera-old-full:before {
+    content: "\e966";
+}
+
+.icon-zhihangzuozhuanyouzhuan:before {
+    content: "\e607";
+}
+
+.icon-chuanyuehuoxian:before {
+    content: "\e601";
+}
+
+.icon-zhaiwuren:before {
+    content: "\e618";
+}
+
+.icon-shouye:before {
+    content: "\e634";
+}
+
+.icon-zuihouchuxian:before {
+    content: "\e648";
+}
+
+.icon-pukepaiwang:before {
+    content: "\e63d";
+}
+

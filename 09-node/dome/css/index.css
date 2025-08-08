@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: url(../img/login-background.3cdb3222.jpg);
+    background-size: cover;
+}
+
+.form1, .form2 {
+    position: relative;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    display: none;
+    padding: 25px 25px 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.tisi {
+    display: none;
+    position: absolute;
+    font-size: 12px;
+    color: red;
+}
+
+.inp .huojiao {
+    box-shadow: none;
+    outline: none;
+    border: 1px solid aqua;
+}
+
+.inp .jingshi {
+    box-shadow: none;
+    outline: none;
+    border: 1px solid red;
+}
+
+.tisixian {
+    display: block;
+}
+
+.weizhi {
+    top: 183px;
+}
+
+.weizhi1 {
+    top: 241px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 16px;
+    margin: 0 auto 30px;
+    color: #707070;
+}
+
+.tap {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+    /* flex-wrap: nowrap; */
+}
+
+.login, .zhu {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    width: 45%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+}
+
+.color {
+    border: 0;
+    background-color: aqua;
+    color: #fff;
+}
+
+.inp {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.inp > input {
+    border: none;
+    box-shadow: 0 0 0 1px #c5c5c5;
+    border-radius: 4px;
+    color: #6b6b6b;
+    width: 350px;
+    height: 40px;
+    box-sizing: border-box;
+    line-height: 40px;
+    font-size: 14px;
+    padding-left: 35px;
+}
+
+.inp > span {
+    position: absolute;
+    color: #a3a3a3;
+    left: 15px;
+    top: 1px;
+    font-size: 16px;
+    line-height: 38px;
+}
+
+.jizhu {
+    margin-bottom: 18px;
+    display: flex;
+}
+
+.jizhu > input {
+    margin-right: 5px;
+}
+
+.jizhu > span {
+    cursor: pointer;
+}
+
+.deng {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 18px;
+}
+
+.deng > button {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00b6ff;
+    color: #fff;
+}
+
+.xian {
+    display: block;
+}
