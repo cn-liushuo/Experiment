@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>HTML-表单项标签</title>
+</head>
+<body>
+
+<!-- value: 表单项提交的值 -->
+<form action="/save" method="post">
+    姓名: <input name="name" type="text"> <br><br>
+
+    密码: <input name="password" type="password"> <br><br>
+
+    性别: <input name="gender" type="radio" value="1"> 男
+    <label><input name="gender" type="radio" value="2"> 女 </label> <br><br>
+
+    爱好: <label><input name="hobby" type="checkbox" value="java"> java </label>
+    <label><input name="hobby" type="checkbox" value="game"> game </label>
+    <label><input name="hobby" type="checkbox" value="sing"> sing </label> <br><br>
+
+    图像: <input name="image" type="file"> <br><br>
+
+    生日: <input name="birthday" type="date"> <br><br>
+
+    时间: <input name="time" type="time"> <br><br>
+
+    日期时间: <input name="datetime" type="datetime-local"> <br><br>
+
+    学历: <select name="degree">
+    <option value="">----------- 请选择 -----------</option>
+    <option value="1">大专</option>
+    <option value="2">本科</option>
+    <option value="3">硕士</option>
+    <option value="4">博士</option>
+</select> <br><br>
+
+    描述: <textarea cols="30" name="description" rows="10"></textarea> <br><br>
+
+    <input name="id" type="hidden" value="1">
+
+    <!-- 表单常见按钮 -->
+    <input type="button" value="按钮">
+    <input type="reset" value="重置">
+    <input type="submit" value="提交">
+    <br>
+</form>
+
+</body>
+</html>

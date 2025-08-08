@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hongjia.mapper.ManMapper">
+    <select id="getByVesselOrMonth" resultType="com.hongjia.pojo.Man">
+        SELECT * FROM manning
+        <where>
+            <!-- vessel 或 month 条件 -->
+            <if test="vessel != null and vessel != ''">
+                AND vessel LIKE CONCAT('%', #{vessel}, '%')
+            </if>
+            <if test="month != null">
+                AND month = #{month}
+            </if>
+        </where>
+    </select>
+</mapper>
