@@ -1,0 +1,16 @@
+========Dog========
+name=旺财
+age=3
+hobby=null
+========Student========
+name=小铄
+age=18
+hobby=软件工程
+========Teacher========
+name=小瑞
+age=19
+hobby=Java
+salary=6000.0
+className=软件工程
+sex=女
+phone=12345678901
